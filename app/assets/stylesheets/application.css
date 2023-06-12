@@ -13,3 +13,19 @@
  *= require_tree .
  *= require_self
  */
+ .form-custom-width {
+  max-width: 600px; /* ajustez cette valeur selon vos besoins */
+  margin: 10px auto; /* centre le formulaire horizontalement */
+  padding: 10px;
+
+  form {
+    padding: 10px;
+  }
+
+  .form-inline {
+    display: flex;
+    align-items: center;
+
+    .form-inline input[type="text"] {
+      margin-right: 10px;
+    }
